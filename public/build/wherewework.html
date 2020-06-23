@@ -1,0 +1,67 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Support To Ganga Rejuvenation</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css" rel="stylesheet" />
+  </head>
+
+  <body class="antialiased overflow-x-hidden bg-ivory">
+    <!--  -->
+    <header>
+      <div class="c-container">
+        <div class="flex items-center">
+          <div>
+            <img class="s-logo" src="../assets/Logo-1.png" alt="" />
+          </div>
+          <div>
+            <img class="s-logo" src="../assets/Logo-2.jpg" alt="" />
+          </div>
+        </div>
+        <div class="c-menu__button xl:hidden">
+          <a href="">
+            <span class="s-description s-text s-text--prominent">Menu</span>
+          </a>
+        </div>
+        <div class="c-menu__items hidden">
+          <a href="./home.html">
+            <span class="s-description s-text hover:s-text--prominent">Home</span>
+          </a>
+          <a href="./whoweare.html">
+            <span class="s-description s-text hover:s-text--prominent">Who We Are</span>
+          </a>
+          <a href="./whatwedo.html">
+            <span class="s-description s-text hover:s-text--prominent">What We Do</span>
+          </a>
+          <a href="./wherewework.html">
+            <span class="s-description s-text s-text--prominent">Where We Work</span>
+          </a>
+          <a href="">
+            <span class="s-description s-text hover:s-text--prominent">Contact Us</span>
+          </a>
+        </div>
+      </div>
+    </header>
+    <!--  -->
+    <!-- <div class="c-menu"></div> -->
+    <!--  -->
+    <main>
+      <section class="c-section pt-32 xl:pt-40">
+        <div class="c-2-col">
+          <div class="c-2-col__first">
+            <div class="c-2-col__first__container">
+              <h1 class="s-text s-h1 s-text--prominent">Where We Work</h1>
+              <div class="c-hr c-hr__small mt-10"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pt-10">
+        <div id="map" class="c-map-container"></div>
+      </section>
+    </main>
+    <script src="./CMS/wherewework.js"></script>
+  </body>
+</html>
