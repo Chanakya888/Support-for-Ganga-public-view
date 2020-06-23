@@ -3,17 +3,17 @@
 
 @font-face {
   font-family: gothamBook;
-  src: url("../fonts/GothamNarrow-Book.otf") format("opentype");
+  src: url("./fonts/GothamNarrow-Book.otf") format("opentype");
 }
 
 @font-face {
   font-family: gothamMedium;
-  src: url("../fonts/GothamNarrow-Medium.otf") format("opentype");
+  src: url("./fonts/GothamNarrow-Medium.otf") format("opentype");
 }
 
 @font-face {
   font-family: gothamBold;
-  src: url("../fonts/GothamNarrow-Bold.otf") format("opentype");
+  src: url("./fonts/GothamNarrow-Bold.otf") format("opentype");
 }
 
 /* settings */
